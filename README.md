@@ -33,7 +33,7 @@ conda activate nlp
 | Logistic Regression | 0.954 |
 | Support Vector Classifier | 0.93 |
 
-##Limitations
+## Limitations
 Bag-of-words encoding and traditional machine learning approaches have some limitations that can impact the accuracy and performance of the models. These limitations include the loss of semantic information, the curse of dimensionality, difficulty with rare or out-of-vocabulary words, limited ability to handle complex relationships, and limited ability to handle sequential data. To address these limitations, it may be necessary to consider alternative techniques, such as deep learning models and more advanced feature engineering techniques.
 
 ## Future work
