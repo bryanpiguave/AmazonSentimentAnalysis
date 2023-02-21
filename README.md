@@ -10,6 +10,7 @@ The purpose of this project is to create a product classifier that predicts whet
 - scikit-learn
 - pandas
 - numpy
+- gradio
 
 
 ## Data Description
@@ -26,7 +27,14 @@ conda env create -f nlp.yml
 conda activate nlp
 ```
 
-
+To train and test the models, run the main script:
+```
+    python3 main.py --model<SVC or Logistic>
+```
+To test a trained model with a graphical interface, run the app script:
+```
+    python3 app.py 
+```
 ## Results 
 | Model | Accuracy |
 |-------|----------|
