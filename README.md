@@ -31,10 +31,15 @@ To train and test the models, run the main script:
 ```
     python3 main.py --model<SVC or Logistic>
 ```
+
+## Demo
 To test a trained model with a graphical interface, run the app script:
 ```
     python3 app.py 
 ```
+![demo](demo.png)
+
+
 ## Results 
 | Model | Accuracy |
 |-------|----------|
